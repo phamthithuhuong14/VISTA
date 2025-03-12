@@ -20,7 +20,6 @@
     "react-slick": "^0.30.3",
     "recharts": "^2.15.1",
     "router": "^1.3.8",
-    "tailwindcss": "^4.0.6",
     "use-routes": "^0.2.2"
   },
   "devDependencies": {
@@ -29,10 +28,13 @@
     "@types/react-dom": "^19.0.3",
     "@types/react-slick": "^0.23.13",
     "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9.19.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.13",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.22.0",
     "vite": "^6.1.0"
