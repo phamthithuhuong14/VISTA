@@ -33,10 +33,11 @@ type Props = {};
 const ADX = (props: Props) => {
   return (
     <body className="bg-[#06001C] text-white font-sans">
-      <div className="mx-4 mt-2 p-4 rounded-2xl bg-crypto-panel relative overflow-hidden border-b-2 border-[#2B2B2B] shadow-lg shadow-blue-300/50">
-        <div className=" flex justify-between items-start border border-[#2B2B2B] rounded-xl h-full space-x-2 ">
-          <img src={background} alt="" className="relative mr-[20%] w-full" />
-          <div className="absolute ml-3.5 mt-[6%]">
+      <div className=" rounded-2xl bg-crypto-panel relative overflow-hidden border-b-2 border-[#2B2B2B] shadow-lg shadow-blue-300/50">
+        <div className=" flex justify-between items-start border border-[#2B2B2B] rounded-xl space-x-2 ">
+          <img src={background} alt="" className="relative w-full" />
+          <div className="border absolute w-[50%] flex mt-[17%] ml-[26%] shadow-amber-50  backdrop-blur-md">
+          <div className=" ml-3.5 mt-[6%]">
             <h2 className="text-xl font-bold ml-5">BTC/USDT</h2>
             <p className="text-xl font-bold text-teal-400 ml-5">$98.295,99</p>
             <p className="text-teal-400 flex items-center ml-5 text-lg">
@@ -44,8 +45,10 @@ const ADX = (props: Props) => {
             </p>
             <p className="text-lg mt-2 ml-5">RSI: 62</p>
           </div>
-          <div className=" mr-4 rounded-full w-20 mt-[10%] flex items-center justify-center border-1 border-white">
+          
+          <div className="absolute ml-[68%] rounded-full w-20 h-20 mt-[10%] flex items-center justify-center border-1 border-white">
             <img src={B} alt="" className="w-16 h-16" />
+          </div>
           </div>
         </div>
 
