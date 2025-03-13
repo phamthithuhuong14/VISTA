@@ -42,7 +42,7 @@ const AI = (props: Props) => {
         </div>
         </div>
 
-        <div className="flex justify-center items-center mt-20 text-white">
+        <div className="flex justify-center items-center mt-20 text-white pb-40">
       <div className="w-[90%] p-4 rounded-lg bg-gray-900 shadow-lg">
         <div className="flex justify-between text-[#FFFFFF] text-xl font-mono font-normal mb-4">
           <span>Cryptocurrency</span>

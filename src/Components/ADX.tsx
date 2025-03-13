@@ -1,9 +1,3 @@
-import React from "react";
-import restartBtn from "../../public/image/restartbutton.png";
-import home from "../../public/image/Home.svg";
-import analytis from "../../public/image/Analytis.svg";
-import AI from "../../public/image/AI.svg";
-import chatbot from "../../public/image/chatbot.svg";
 import B from "../../public/image/B.svg";
 import background from "../../public/image/bg-analytis.svg";
 import { ResponsiveContainer, ComposedChart, XAxis, YAxis, CartesianGrid, Tooltip, Bar, Line, Rectangle } from "recharts";
@@ -89,7 +83,7 @@ const ADX = (props: Props) => {
         </div>
       </div>
 
-      <ResponsiveContainer width="100%" height={400}>
+      <ResponsiveContainer width="100%" height={400} >
       <ComposedChart data={data} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
         <CartesianGrid strokeDasharray="3 3" stroke="#444" />
         <XAxis dataKey="date" stroke="#888" />

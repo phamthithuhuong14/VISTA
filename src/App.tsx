@@ -13,7 +13,8 @@ import AIChatbot from "./Components/AIChatbot";
 import Analytic from "./Components/Analytic";
 import AIPredic from "./Components/AIPredic";
 import HeatMap from "./Components/HeatMap";
-import Banner from "./Components/Banner";
+import PGAT from "./Components/PGAT";
+import AnimatedIcon from "./Components/Banner";
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
         <Route path="/Analytic" element={<Analytic />} />
         <Route path="/AIPredic" element={<AIPredic />} />
         <Route path="/HeatMap" element={<HeatMap />} />
-        <Route path="/Banner" element={<Banner />} />
+        {/* <Route path="/AnimatedIcon" element={<AnimatedIcon />} /> */}
+        <Route path="/PGAT" element={<PGAT />} />
       </Routes>
     </>
   );

@@ -1,12 +1,3 @@
-import React from "react";
-import restartBtn from "../../public/image/restartbutton.png";
-import home from "../../public/image/Home.svg";
-import analytis from "../../public/image/Analytis.svg";
-import AI from "../../public/image/AI.svg";
-import chatbot from "../../public/image/chatbot.svg";
-import banner from "../../public/image/banner.png";
-import avt from "../../public/image/3d_avatar_13.svg";
-import emtyToken from "../../public/image/empty-token 1.svg";
 import B from "../../public/image/B.svg";
 import background from "../../public/image/bg-analytis.svg";
 import POL from "../../public/icon/POL.svg"
@@ -21,6 +12,7 @@ import BTC from "../../public/icon/BTC.svg"
 import ABT from "../../public/icon/ABT.svg"
 import APT from "../../public/icon/APT.svg"
 import TON from "../../public/icon/TON.svg"
+import Footer from "./Footer";
 
 type Props = {};
 
@@ -44,12 +36,11 @@ const RSI = (props: Props) => {
           </div>
           </div>
         </div>
-
         
       </div>
 
-      <div className="flex justify-between items-center px-4 py-3">
-        <span className="text-lg font-mono text-white">
+      <div className="flex justify-between items-center px-4 py-3 mt-10">
+        <span className="text-lg font-mono text-white mt-2">
           Select analysis indicators
         </span>
         <div className="flex space-x-2">
@@ -75,16 +66,16 @@ const RSI = (props: Props) => {
 
       <div className="relative mx-4 h-96 bg-gradient-to-b from-gray-900 to-gray-800 rounded-xl overflow-hidden">
         <div className="absolute left-2 top-0 h-full flex flex-col justify-between text-xs text-gray-500 py-4">
-          <div>100</div>
-          <div>90</div>
-          <div>80</div>
-          <div>70</div>
+          <div className="text-[#FC454A]">100</div>
+          <div className="text-[#FC454A]">90</div>
+          <div className="text-[#FC454A]">80</div>
+          <div className="text-[#FF9295]">70</div>
           <div>60</div>
           <div>50</div>
-          <div>40</div>
+          <div className="text-[#8AFFE3]">40</div>
           <div>30</div>
-          <div>20</div>
-          <div>10</div>
+          <div className="text-[#8AFFE3]">20</div>
+          <div className="text-[#8AFFE3]">10</div>
         </div>
 
         <div className="absolute w-full h-full left-0 top-0">
@@ -149,49 +140,9 @@ const RSI = (props: Props) => {
         {/* <div className="absolute bottom-1 right-2 text-xs text-gray-400">
         
         </div> */}
-
         
       </div>
-
-      <div className="fixed bottom-0 left-0 right-0 bg-black/50 backdrop-blur-md p-4 border border-[rgba(86,86,86,1)] rounded-s-3xl">
-        <div className="flex justify-between items-center">
-          <button className="flex flex-col items-center ">
-            {/* <Home class="w-6 h-6" /> */}
-            <img src={home} alt="" className="w-6 h-8 " />
-            <span className=" font-normal text-xl font-mono ">
-              Home
-            </span>
-          </button>
-          <button className="flex flex-col items-center  text-blue-500">
-            {/* <ChartLine className="w-6 h-6" /> */}
-            <img src={analytis} alt="" className="w-7 h-8" />
-            <span className=" font-normal text-xl font-mono mt-1 text-[rgba(66,107,255,1)]">
-              Analysis
-            </span>
-          </button>
-          <div className="">
-            <img
-              src={restartBtn}
-              alt=" lỗi"
-              className="border w-20 h-20 border-[rgba(66,107,255,1)] rounded-full "
-            />
-          </div>
-          <button className="flex flex-col items-center text-gray-400">
-            {/* <Bot className="w-6 h-6" /> */}
-            <img src={AI} alt="" className="w-7 h-8" />
-            <span className="text-white font-normal text-xl font-mono mt-1">
-              AI
-            </span>
-          </button>
-          <button className="flex flex-col items-center text-gray-400">
-            {/* <Menu className="w-6 h-6" /> */}
-            <img src={chatbot} alt="" className="w-6 h-8" />
-            <span className="text-white font-normal text-xl font-mono mt-1">
-              ChatBot
-            </span>
-          </button>
-        </div>
-      </div>
+      <Footer />
     </body>
   );
 };

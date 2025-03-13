@@ -28,7 +28,7 @@ type Props = {};
 const Swap = (props: Props) => {
 
   return (
-    <body className="bg-[#0d0136] text-white font-sans">
+    <body className="bg-[#0d0136] text-white font-sans ">
       <div className="grid grid-cols-2 gap-4 mt-6">
         <img src={logo} alt="" className="w-[30%] ml-16" />
         <div>

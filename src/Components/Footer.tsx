@@ -29,12 +29,12 @@ const Footer = (props: Props) => {
   }
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-black/50 backdrop-blur-md p-4 border border-[rgba(86,86,86,1)] rounded-s-3xl ">
+    <div className="fixed bottom-0 left-0 right-0 bg-black/50 backdrop-blur-md p-4 border border-gray-500 rounded-s-3xl ">
         <div className="flex justify-between items-center">
           <button onClick={HandleGotoHome} className="flex flex-col items-center ">
             {/* <Home class="w-6 h-6" /> */}
             <img src={home} alt="" className="w-6 h-8 " />
-            <span className='hover:text-blue-500 focus:text-blue-500 text-blue-500 cursor-pointer' tabIndex={0}>
+            <span>
               Home
             </span>
           </button>

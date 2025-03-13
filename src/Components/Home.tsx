@@ -1,12 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Bell, Search, ChartLine, Bot, Menu } from "lucide-react";
-
-import restartBtn from "../../public/image/restartbutton.png";
-import home from "../../public/image/Home.svg";
-import analytis from "../../public/image/Analytis.svg";
-import AI from "../../public/image/AI.svg";
-import chatbot from "../../public/image/chatbot.svg";
-import banner from "../../public/image/banner.png";
 import avt from "../../public/image/3d_avatar_13.svg";
 import emtyToken from "../../public/image/empty-token 1.svg";
 import Footer from "./Footer";
@@ -107,7 +100,7 @@ const Home = () => {
       <div className="relative p-6 rounded-lg text-center ">
         <img src={BannerPopup} alt="" className=" w-md"/>
         <button className="absolute border border-sky-300 bottom-45 w-44 left-1/2 -translate-x-1/2  py-2 px-4 rounded-lg text-xl bg-black text-[#e0f2fe] font-bold  font-mono cursor-pointer">
-          See Details
+          <a href="/PGAT">See Details</a>
         </button>
 
         {/* Nút đóng banner */}
@@ -206,7 +199,7 @@ const Home = () => {
       </div>
 
       {/* Market List */}
-      <div className="p-4">
+      <div className="p-4 pb-40">
         <h3 className="text-white font-bold text-xl font-mono mb-4">
           Market List
         </h3>
