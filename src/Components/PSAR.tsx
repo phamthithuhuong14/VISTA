@@ -127,7 +127,7 @@ const PSAR = () => {
     </div>
       
       
-    <div className="mt-5 ">
+    <div className="mt-5 pb-40">
         <button className="flex justify-center items-center gap-3 text-[#9EB3FF] font-bold border w-xl ml-[9%] text-2xl font-mono rounded-xl">Swap Now 
         <img src={restartBtn} alt="" className="animate-spin"/>
         </button>

@@ -34,7 +34,7 @@ const AIPredic = (props: Props) => {
   ];
 
   return (
-    <body className="bg-gradient-to-br from-[#3D002F] via-[#39007A] to-[#000000] text-white font-sans h-screen ">
+    <body className="bg-gradient-to-br from-[#3D002F] via-[#39007A] to-[#000000] text-white font-sans min-h-screen ">
       <div className=" flex justify-between items-start border border-[#2B2B2B] rounded-xl ">
         <img src={background} alt="" className="relative w-full" />
         <div className="absolute container mx-auto px-4 py-8  mt-20 ml-6">
@@ -81,7 +81,7 @@ const AIPredic = (props: Props) => {
         </div>
       </div>
 
-      <div className="bg-black py-6 px-4 border border-[#a09f9f] rounded-xl border-b-0 max-w-2xl max-w-auto ml-3 mt-[10%]">
+      <div className="bg-black py-6 px-4 border border-[#a09f9f] rounded-xl border-b-0 max-w-xl mt-[10%] ml-[8%] ">
         <div className="text-gray-400 text-sm mb-2 ">Cryptocurrency</div>
         <p className="border-b mb-2"></p>
         <div className="border-b border-gray-700 pb-4">

@@ -35,6 +35,7 @@ const HeatMap = (props: Props) => {
       <div className="absolute top-0 left-0 rounded-3xl w-full overflow-hidden">
         <div className="absolute inset-0 opacity-50"></div>
       </div> */}
+      <div className="pb-40">
       <div className="relative z-10 mt-20 w-[90%] ml-10 border border-b-0 rounded-2xl shadow-amber-50  backdrop-blur-md">
         <h1 className="text-2xl font-mono font-bold text-[#426BFF] mt-4 mb-6 text-center">
           Trading Strategy
@@ -73,6 +74,7 @@ const HeatMap = (props: Props) => {
           <span className="font-mono font-bold text-[#9EB3FF] text-xl">Swap Now</span>
           <img src={restartbtn} alt="" />
         </button>
+      </div>
       </div>
       {/* </div>
   </div> */}

@@ -106,7 +106,7 @@ const Swap = (props: Props) => {
         </div>
       </div>
 
-      <div className=" text-white p-4 rounded-xl w-full max-w-md mt-8 ml-16 ">
+      <div className=" text-white p-4 rounded-xl w-full max-w-md mt-8 ml-16 pb-40">
       <div className="bg-gray-900 mt-4 p-4 rounded-lg w-full max-w-md">
         <div className="flex items-center mb-2 ">
           <button className="bg-black text-white px-3 py-1 rounded-md flex items-center">

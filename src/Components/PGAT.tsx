@@ -33,14 +33,14 @@ const PGAT = (props: Props) => {
         <h2 className="text-4xl text-center font-bold text-blue-400 mb-4">
           About PGAT
         </h2>
-        <p className=" mb-4 text-xl tracking-wide leading-relaxed font-mono font-normal text-justify">
+        <p className=" mb-10 text-xl tracking-wide leading-relaxed font-mono font-normal text-justify">
           The POKT Gateway Accelerator Tour (PGAT) is a 3-month accelerator
           designed to support builders shaping the future of gateways. Were
           selecting 6 talented builders to receive $25,000 each in USDC and gain
           exclusive access to the POKT Network, enabling them to bring
           innovative gateway solutions to life.
         </p>
-        <div>
+        <div className="">
           <h1 className="font-mono text-2xl font-bold">Program Highlights</h1>
           <div className="tracking-wide leading-relaxed text-xl mt-2 text-justify">
           <p className="text-white">

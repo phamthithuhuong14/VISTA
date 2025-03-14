@@ -107,7 +107,7 @@ const Home = () => {
         <button
           onClick={handleClose}
           className="absolute top-10 right-12 border border-gray-400 bg-gray-200/50 text-gray-700 
-             hover:bg-gray-300 hover:border-gray-500 
+             hover:bg-red-500 hover:border-gray-500 
              backdrop-blur-lg p-2 rounded w-12 h-12 transition-all duration-300 cursor-pointer"
         >
           <svg

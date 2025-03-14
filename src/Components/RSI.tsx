@@ -39,8 +39,11 @@ const RSI = (props: Props) => {
         
       </div>
 
+      
+      <div className="mt-10 pb-40">
+        
       <div className="flex justify-between items-center px-4 py-3 mt-10">
-        <span className="text-lg font-mono text-white mt-2">
+        <span className="text-lg font-mono text-white mt-2 ">
           Select analysis indicators
         </span>
         <div className="flex space-x-2">
@@ -63,6 +66,7 @@ const RSI = (props: Props) => {
           </div>
         </div>
       </div>
+     
 
       <div className="relative mx-4 h-96 bg-gradient-to-b from-gray-900 to-gray-800 rounded-xl overflow-hidden">
         <div className="absolute left-2 top-0 h-full flex flex-col justify-between text-xs text-gray-500 py-4">
@@ -78,7 +82,7 @@ const RSI = (props: Props) => {
           <div className="text-[#8AFFE3]">10</div>
         </div>
 
-        <div className="absolute w-full h-full left-0 top-0">
+        <div className="absolute w-full h-full left-0 top-0 pb-40">
           
           <div className="absolute top-[30%] left-10 right-0 h-px bg-red-900"></div>
           <div className="absolute top-[50%] left-10 right-0 h-px bg-gray-700"></div>
@@ -141,6 +145,7 @@ const RSI = (props: Props) => {
         
         </div> */}
         
+      </div>
       </div>
       <Footer />
     </body>

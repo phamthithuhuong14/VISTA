@@ -24,7 +24,7 @@ const AI = (props: Props) => {
         <div className=" flex justify-between items-start border border-[#2B2B2B] rounded-xl">
           <img src={background} alt="" className="relative w-full" />
           <div className='absolute flex justify-center items-center'>
-          <div className="flex justify-center items-center text-white border mt-10 ml-20">
+          <div className="flex justify-center items-center text-white border border-t-2 border-b-2 border-l-2 border-white mt-10 ml-20">
       <div className="relative w-[400px] h-[200px] flex justify-center items-center bg-opacity-30">
      
         <div className="absolute w-[150px] h-[150px] bg-black rounded-full border-white border flex flex-col justify-center items-center">

@@ -57,7 +57,7 @@ const ADX = (props: Props) => {
         </div>
       </div>
 
-      <div className="flex justify-between text-xs mt-3.5 mx-4 p-2">
+      <div className="flex justify-between text-xs mt-3.5 mx-4 p-2 ">
         <div className=" font-mono text-lg font-normal">
           Price: <span className="text-white font-bold">$98,295.99</span>
         </div>
@@ -86,6 +86,7 @@ const ADX = (props: Props) => {
         </div>
       </div>
 
+      <div className="mt-10 pb-40">
       <ResponsiveContainer width="100%" height={400} >
       <ComposedChart data={data} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
         <CartesianGrid strokeDasharray="3 3" stroke="#444" />
@@ -107,6 +108,7 @@ const ADX = (props: Props) => {
       </ComposedChart>
     </ResponsiveContainer>
 
+      </div>
       <Footer />
     </body>
   );

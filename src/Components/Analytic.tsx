@@ -88,7 +88,7 @@ const Analytic = (props: Props) => {
         <div className="flex gap-2 border rounded border-[#3C3A3A] w-full h-34 items-center justify-around">
           <div>
             <img src= {HeatMap} alt="" className="w-20"/>
-          <button className=" p-2 font-mono text-md">Heatmap</button>
+          <button className=" p-2 font-mono text-md ml-1">Heatmap</button>
           </div>
           <div className="ml-4">
             <img src={JP} alt="" className="w-20"/>
@@ -96,17 +96,17 @@ const Analytic = (props: Props) => {
           </div>
           <div>
             <img src={PSAR} alt="" className="w-20"/>
-          <button className="p-2 font-mono text-md">PSAR</button>
+          <button className="p-2 font-mono text-md ml-5">PSAR</button>
           </div>
           <div>
             <img src={ADX} alt="" className="w-20"/>
-          <button className=" p-2 font-mono text-md">ADX</button>
+          <button className=" p-2 font-mono text-md ml-5">ADX</button>
           </div>
         </div>
       </div>
 
       
-      <div className="mt-6">
+      <div className="mt-6 pb-40">
         <h2 className="text-lg font-normal font-mono mb-2">Confluence</h2>
         <div className="grid grid-cols-2 gap-4">
           <div className="w-52 h-52 bg-black border border-gray-500 rounded-xl">
